@@ -1,0 +1,16 @@
+[package]
+name = "instance-test"
+version = "0.1.0"
+authors = ["Lachlan Sneff <lachlan.sneff@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+wgpu = { git = "https://github.com/gfx-rs/wgpu-rs.git", rev = "04db8c973c6c7bfbb5f89d3d18ef365d19d9af82" }
+ultraviolet = "0.4"
+winit = "0.22"
+futures = "0.3"
+
+[build-dependencies]
+shaderc = "0.6"
